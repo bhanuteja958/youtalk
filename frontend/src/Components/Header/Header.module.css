@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    max-width: var(--max-normal-page-width);
+    margin: auto;
+}
+
+.headerLogo {
+    width: 175px;
+    height: auto;
+    cursor: pointer;
+}
+
+.navList {
+    display: flex;
+    align-items: center;
+    column-gap: 75px;
+    list-style:none;
+}
+
+.navItem {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navLink {
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+.navBtn {
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+    padding: 5px 30px;
+    border:0;
+    border-radius: 10px;
+    cursor: pointer;
+}
